@@ -1,14 +1,15 @@
 API Documentation
 =================
 
-Create a pothole (POST)
+Create/Update a pothole (POST)
 
 request url: http://localhost:8080/api/ReportPothole?api_key=##########
 
 Example Requst Body:
 {
-"latitude":12.2,
-"longitude":12.2
+"latitude":100.25233412,
+"longitude":78.251234123,
+"severity":6
 }
 
 Example Response:
